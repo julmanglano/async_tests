@@ -1,0 +1,42 @@
+---
+all:
+   vars:
+      username: xxxxxxx
+      password: xxxxxxxxx
+
+   hosts:
+   - hostname: core-1
+     host: 192.168.28.136
+     device_type: cisco_ios
+     group: ios-routers
+   - hostname: NXOS
+     host: 172.16.4.1
+     device_type: cisco_nxos
+     group: nxos-switches
+   - hostname: sto-cr01
+     host: 172.16.1.1
+     device_type: cisco_ios
+     group: ios-routers
+   - hostname: lon-cr01
+     host: 172.16.2.1
+     device_type: cisco_ios
+     group: ios-routers
+   - hostname: fra-cr01
+     host: 172.16.1.1
+     device_type: cisco_ios
+     group: ios-routers
+   - hostname: sto-sw01
+     host: 172.16.1.2
+     device_type: cisco_ios
+     group: ios-switches
+   - hostname: lon-sw01
+     host: 172.16.2.2
+     device_type: cisco_ios
+     group: ios-switches
+   - hostname: fra-sw01
+     host: 172.16.3.2
+     device_type: cisco_ios
+     group: ios-switches
+     
+     
+     
